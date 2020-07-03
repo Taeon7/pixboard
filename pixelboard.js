@@ -7,8 +7,10 @@
 
 var colors = [];
 var themx = ['#FFFFFF','#FE0000','#434EA0','#FFFF01','#FF9000','#048C5A','#6E3794','#8BC800','#454DA2','#C8007F'];
-var themy = ['#FFFFFF','#FEF200','#FE0000','#0099FF','#7A1FA0','#FEF200','#E70078','#89E23C','#F95201','#AB31AA'];
+var themy = ['#FFFFFF','#FEF200','#FE0000','#0099FF','#7A1FA0','#336699','#E70078','#89E23C','#F95201','#B3B3B3'];
 var themz = ['#FFFFFF','#FEDB03','#47FF01','#01FE91','#0091FE','#4801FF','#FF00D8','#FE0000','#7A1FA0','#1E1E1E'];
+var themw = ['#FFFFFF','#FCEF00','#E80924','#1562B2','#FF9E02','#00B83C','#834BA4','#A8D405','#00A1DF','#FF028C'];
+var themk = ['#FFFFFF','#FFDB01','#47FF01','#01FE91','#0091FE','#4801FF','#FE00DA','#FE0000','#FF6600','#000000'];
 
 
 // [input] – Limited to 10000 numbers.
@@ -48,7 +50,7 @@ localStorage.setItem("arrax", JSON.stringify(pix));
 			} else if (cor[i] == 8) {	
 			  colors[i] = themy[8];
 			} else {
-			  colors[i] = themx[9];
+			  colors[i] = themy[9];
 			}
 			// console.log(cor);
 	}
@@ -10078,40 +10080,3 @@ ctx.fillStyle = cor[9996];ctx.fillRect(960,990, 10, 10)
 ctx.fillStyle = cor[9997];ctx.fillRect(970,990, 10, 10)
 ctx.fillStyle = cor[9998];ctx.fillRect(980,990, 10, 10)
 ctx.fillStyle = cor[9999];ctx.fillRect(990,990, 10, 10)
-
-
-// THEME X
-// [0] = #FFFFFF | white
-// [1] = #FE0000 | red
-// [2] = #434EA0 | blue
-// [3] = #FFFF01 | yellow
-// [4] = #FF9000 | orange
-// [5] = #048C5A | green
-// [6] = #6E3794 | purple
-// [7] = #8BC800 | green_2	
-// [8] = #454DA2 | blue_2
-// [9] = #C8007F | pink
-
-// THEME Y
-// [0] = #FFFFFF | branco 
-// [1] = #FEF200 | amarelo 
-// [2] = #FE0000 | vermelho 
-// [3] = #0099FF | verde
-// [4] = #7A1FA0 | violeta 
-// [5] = #FEF200 | verde 
-// [6] = #E70078 | pink 
-// [7] = #89E23C | verde_2 
-// [8] = #F95201 | laranja
-// [9] = #AB31AA | roxo
-
-// THEME Z
-// [0] = #FFFFFF | White
-// [1] = #FEDB03 | Yellow
-// [2] = #47FF01 | Green
-// [3] = #01FE91 | Green 2
-// [4] = #0091FE | Blue
-// [5] = #4801FF | Purple
-// [6] = #FF00D8 | Pink
-// [7] = #FE0000 | Red
-// [8] = #7A1FA0 | Orange
-// [9] = #1E1E1E | Black 
