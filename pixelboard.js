@@ -33,7 +33,7 @@ localStorage.setItem("arrax", JSON.stringify(pix));
 
 			if (cor[i] == 0){
 			  colors[i] = themy[0];
-			} else if (cor[i] == 5) {
+			} else if (cor[i] == 1) {
 			  colors[i] = themy[1];
 			} else if (cor[i] == 2) {
 			  colors[i] = themy[2];
